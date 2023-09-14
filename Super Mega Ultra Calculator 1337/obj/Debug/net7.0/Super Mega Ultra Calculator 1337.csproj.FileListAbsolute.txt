@@ -1,0 +1,14 @@
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\bin\Debug\net7.0\Super Mega Ultra Calculator 1337.exe
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\bin\Debug\net7.0\Super Mega Ultra Calculator 1337.deps.json
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\bin\Debug\net7.0\Super Mega Ultra Calculator 1337.runtimeconfig.json
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\bin\Debug\net7.0\Super Mega Ultra Calculator 1337.dll
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\bin\Debug\net7.0\Super Mega Ultra Calculator 1337.pdb
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.GeneratedMSBuildEditorConfig.editorconfig
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.AssemblyInfoInputs.cache
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.AssemblyInfo.cs
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.csproj.CoreCompileInputs.cache
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.dll
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\refint\Super Mega Ultra Calculator 1337.dll
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.pdb
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\Super Mega Ultra Calculator 1337.genruntimeconfig.cache
+D:\Проекты Visual Studio\VS 2022\Super Mega Ultra Calculator 1337\Super Mega Ultra Calculator 1337\obj\Debug\net7.0\ref\Super Mega Ultra Calculator 1337.dll

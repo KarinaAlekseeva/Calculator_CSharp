@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Super Mega Ultra Calculator 1337/1.0.0": {
+        "runtime": {
+          "Super Mega Ultra Calculator 1337.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Super Mega Ultra Calculator 1337/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
