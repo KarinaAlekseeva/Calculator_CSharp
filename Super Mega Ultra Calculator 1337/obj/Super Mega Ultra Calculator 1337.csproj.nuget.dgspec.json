@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj": {}
+    "D:\\Проекты колледж\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj": {}
   },
   "projects": {
-    "D:\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj": {
+    "D:\\Проекты колледж\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj",
+        "projectUniqueName": "D:\\Проекты колледж\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj",
         "projectName": "Super Mega Ultra Calculator 1337",
-        "projectPath": "D:\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj",
+        "projectPath": "D:\\Проекты колледж\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337.csproj",
         "packagesPath": "C:\\Users\\Karina\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\obj\\",
+        "outputPath": "D:\\Проекты колледж\\Проекты Visual Studio\\VS 2022\\Super Mega Ultra Calculator 1337\\Super Mega Ultra Calculator 1337\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,4 @@
-﻿using System;
-
-Console.WriteLine("Super Mega Ultra Calculator 1337 к вашим услугам! Пожалуйста, выберите операцию из данного списка: ");
+﻿Console.WriteLine("Super Mega Ultra Calculator 1337 к вашим услугам! Пожалуйста, выберите операцию из данного списка: ");
 
 Console.WriteLine("|a| Сложение");
 
@@ -28,198 +26,208 @@ while (oper != "i")
 {
     double operand1, operand2;
 
-    if (oper == "a")
+    switch (oper)
     {
-        Console.WriteLine("Введите первое число: ");
+        case "a":
+            Console.WriteLine("Введите первое число: ");
 
-        operand1 = Convert.ToDouble(Console.ReadLine());
+            operand1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введите второе число: ");
+            Console.WriteLine("Введите второе число: ");
 
-        operand2 = Convert.ToDouble(Console.ReadLine());
+            operand2 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Результат: " + (operand1 + operand2));
-
-        Console.WriteLine("");
-
-        Console.WriteLine("Введите операцию: ");
-
-        oper = Console.ReadLine();
-    }
-
-
-    if (oper == "b")
-    {
-        Console.WriteLine("Введите первое число: ");
-
-        operand1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Введите второе число: ");
-
-        operand2 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Результат: "+ (operand1 - operand2));
-
-        Console.WriteLine("");
-
-        Console.WriteLine("Введите операцию: ");
-
-        oper = Console.ReadLine();
-    }
-
-
-    if (oper == "c")
-    {
-        Console.WriteLine("Введите первое число: ");
-
-        operand1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Введите второе число: ");
-
-        operand2 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Результат: "+ (operand1 * operand2));
-
-        Console.WriteLine("");
-
-        Console.WriteLine("Введите операцию: ");
-
-        oper = Console.ReadLine();
-    }
-
-
-    if (oper == "d")
-    {
-        Console.WriteLine("Введите первое число: ");
-
-        operand1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Введите второе число: ");
-
-        operand2 = Convert.ToDouble(Console.ReadLine());
-
-        if (operand2 != 0)
-        {
-            Console.WriteLine("Результат: " + (operand1 / operand2));
+            Console.WriteLine("Результат: " + (operand1 + operand2));
 
             Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
             oper = Console.ReadLine();
-        }
-        else 
-        {
-            Console.WriteLine("На ноль делить нельзя! Введите другое число, не равное нулю.");
+
+            break;
+
+        case "b":
+            Console.WriteLine("Введите первое число: ");
+
+            operand1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите второе число: ");
+
+            operand2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Результат: " + (operand1 - operand2));
 
             Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
             oper = Console.ReadLine();
-        }
 
-    }
+            break;
 
+        case "c":
+            Console.WriteLine("Введите первое число: ");
 
-    if (oper == "e")
-    {
-        Console.WriteLine("Введите первое число: ");
+            operand1 = Convert.ToDouble(Console.ReadLine());
 
-        operand1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите второе число: ");
 
-        Console.WriteLine("Введите степень, в которую нужно возвести: ");
+            operand2 = Convert.ToDouble(Console.ReadLine());
 
-        operand2 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Результат: " + (Math.Pow(operand1, operand2)));
-
-        Console.WriteLine("");
-
-        Console.WriteLine("Введите операцию: ");
-
-        oper = Console.ReadLine();
-    }
-
-
-    if (oper == "f")
-    {
-        operand2 = 1;
-
-        Console.WriteLine("Введите первое число: ");
-
-        operand1 = Convert.ToDouble(Console.ReadLine());
-
-        if (operand1 < 0)
-        {
-            Console.WriteLine("Не существует факториала отрцательного числа!");
+            Console.WriteLine("Результат: " + (operand1 * operand2));
 
             Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
             oper = Console.ReadLine();
-        }
 
-        else if (operand1 == 0)
-        {
-            Console.WriteLine("Результат: " + 1);
+            break;
 
-            Console.WriteLine("");
+        case "d":
+            Console.WriteLine("Введите первое число: ");
 
-            Console.WriteLine("Введите операцию: ");
+            operand1 = Convert.ToDouble(Console.ReadLine());
 
-            oper = Console.ReadLine();
-        }
+            Console.WriteLine("Введите второе число: ");
 
-        else
-        {
-            for (int i = 1; i <= operand1; i++)
+            operand2 = Convert.ToDouble(Console.ReadLine());
+
+            if (operand2 != 0)
             {
-                operand2 *= i;
+                Console.WriteLine("Результат: " + (operand1 / operand2));
 
+                Console.WriteLine("");
+
+                Console.WriteLine("Введите операцию: ");
+
+                oper = Console.ReadLine();
             }
-            Console.WriteLine("Результат: " + operand2);
+            else
+            {
+                Console.WriteLine("На ноль делить нельзя! Введите другое число, не равное нулю.");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("Введите операцию: ");
+
+                oper = Console.ReadLine();
+            }
+            break;
+
+        case "e":
+            Console.WriteLine("Введите первое число: ");
+
+            operand1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите степень, в которую нужно возвести: ");
+
+            operand2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Результат: " + (Math.Pow(operand1, operand2)));
 
             Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
             oper = Console.ReadLine();
-        }
-    }
 
+            break;
 
-    if (oper == "g")
-    {
-        Console.WriteLine("Введите первое число: ");
+        case "f":
+            operand2 = 1;
 
-        operand1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите первое число: ");
 
-        Console.WriteLine("Результат: " + Math.Sqrt(operand1));
+            operand1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("");
+            if (operand1 < 0)
+            {
+                Console.WriteLine("Не существует факториала отрцательного числа!");
 
-        Console.WriteLine("Введите операцию: ");
+                Console.WriteLine("");
 
-        oper = Console.ReadLine();
-    }
+                Console.WriteLine("Введите операцию: ");
 
+                oper = Console.ReadLine();
+            }
 
+            else if (operand1 == 0)
+            {
+                Console.WriteLine("Результат: " + 1);
 
-    if (oper == "h")
-    {
-        Console.WriteLine("Введите первое число: ");
+                Console.WriteLine("");
 
-        operand1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Введите операцию: ");
 
-        Console.WriteLine("Результат: " + $"1% от {operand1} " + "это " + (operand1/100));
+                oper = Console.ReadLine();
+            }
 
-        Console.WriteLine("");
+            else
+            {
+                for (int i = 1; i <= operand1; i++)
+                {
+                    operand2 *= i;
 
-        Console.WriteLine("Введите операцию: ");
+                }
+                Console.WriteLine("Результат: " + operand2);
 
-        oper = Console.ReadLine();
+                Console.WriteLine("");
+
+                Console.WriteLine("Введите операцию: ");
+
+                oper = Console.ReadLine();
+            }
+            break;
+
+        case "g":
+            Console.WriteLine("Введите первое число: ");
+
+            operand1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Результат: " + Math.Sqrt(operand1));
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Введите операцию: ");
+
+            oper = Console.ReadLine();
+
+            break;
+
+        case "h":
+             Console.WriteLine("Введите первое число: ");
+
+             operand1 = Convert.ToDouble(Console.ReadLine());
+
+             Console.WriteLine("Результат: " + $"1% от {operand1} " + "это " + (operand1 / 100));
+
+             Console.WriteLine("");
+
+             Console.WriteLine("Введите операцию: ");
+
+             oper = Console.ReadLine();
+
+             Console.WriteLine("Некорректный ввод");
+
+             Console.WriteLine("");
+
+             Console.WriteLine("Введите операцию: ");
+
+            oper = Console.ReadLine();
+            
+            break;
+
+        default:
+            Console.WriteLine("Нет такой операции");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Введите операцию: ");
+
+            oper = Console.ReadLine();
+
+            break;
     }
 }
-
