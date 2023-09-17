@@ -31,15 +31,13 @@ while (oper != "i")
         case "a":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Введите второе число: ");
 
-            operand2 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand2);
 
             Console.WriteLine("Результат: " + (operand1 + operand2));
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
@@ -50,15 +48,13 @@ while (oper != "i")
         case "b":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Введите второе число: ");
 
-            operand2 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand2);
 
             Console.WriteLine("Результат: " + (operand1 - operand2));
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
@@ -69,15 +65,13 @@ while (oper != "i")
         case "c":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Введите второе число: ");
 
-            operand2 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand2);
 
             Console.WriteLine("Результат: " + (operand1 * operand2));
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
@@ -88,17 +82,15 @@ while (oper != "i")
         case "d":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Введите второе число: ");
 
-            operand2 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand2);
 
             if (operand2 != 0)
             {
                 Console.WriteLine("Результат: " + (operand1 / operand2));
-
-                Console.WriteLine("");
 
                 Console.WriteLine("Введите операцию: ");
 
@@ -107,8 +99,6 @@ while (oper != "i")
             else
             {
                 Console.WriteLine("На ноль делить нельзя! Введите другое число, не равное нулю.");
-
-                Console.WriteLine("");
 
                 Console.WriteLine("Введите операцию: ");
 
@@ -119,15 +109,13 @@ while (oper != "i")
         case "e":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Введите степень, в которую нужно возвести: ");
 
-            operand2 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand2);
 
             Console.WriteLine("Результат: " + (Math.Pow(operand1, operand2)));
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
@@ -140,13 +128,11 @@ while (oper != "i")
 
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             if (operand1 < 0)
             {
                 Console.WriteLine("Не существует факториала отрцательного числа!");
-
-                Console.WriteLine("");
 
                 Console.WriteLine("Введите операцию: ");
 
@@ -156,8 +142,6 @@ while (oper != "i")
             else if (operand1 == 0)
             {
                 Console.WriteLine("Результат: " + 1);
-
-                Console.WriteLine("");
 
                 Console.WriteLine("Введите операцию: ");
 
@@ -173,8 +157,6 @@ while (oper != "i")
                 }
                 Console.WriteLine("Результат: " + operand2);
 
-                Console.WriteLine("");
-
                 Console.WriteLine("Введите операцию: ");
 
                 oper = Console.ReadLine();
@@ -184,11 +166,9 @@ while (oper != "i")
         case "g":
             Console.WriteLine("Введите первое число: ");
 
-            operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
             Console.WriteLine("Результат: " + Math.Sqrt(operand1));
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
@@ -197,23 +177,13 @@ while (oper != "i")
             break;
 
         case "h":
-             Console.WriteLine("Введите первое число: ");
+            Console.WriteLine("Введите первое число: ");
 
-             operand1 = Convert.ToDouble(Console.ReadLine());
+            Double.TryParse(Console.ReadLine(), out operand1);
 
-             Console.WriteLine("Результат: " + $"1% от {operand1} " + "это " + (operand1 / 100));
+            Console.WriteLine("Результат: " + $"1% от {operand1} " + "это " + (operand1 / 100));
 
-             Console.WriteLine("");
-
-             Console.WriteLine("Введите операцию: ");
-
-             oper = Console.ReadLine();
-
-             Console.WriteLine("Некорректный ввод");
-
-             Console.WriteLine("");
-
-             Console.WriteLine("Введите операцию: ");
+            Console.WriteLine("Введите операцию: ");
 
             oper = Console.ReadLine();
             
@@ -221,8 +191,6 @@ while (oper != "i")
 
         default:
             Console.WriteLine("Нет такой операции");
-
-            Console.WriteLine("");
 
             Console.WriteLine("Введите операцию: ");
 
